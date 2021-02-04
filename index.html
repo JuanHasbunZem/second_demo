@@ -9,61 +9,74 @@
   </head>
   <body>
     <div class="container">
-      <h1>Programming Picker</h1>
-      <h2>What programing langauge is right for you?</h2>
+        <h1>Programming Picker</h1>
+        <h2>What programing langauge is right for you?</h2><br>
+        <p>Tired of being told to learn this programming langauge instead of this other one? Well no more! Now with this patented, scientifically* accurate test, you're just a few short questions away from picking the programming langauge thats right for you!</p><br>
+      <div class="questions">
+        <h1>Answer each question and submit to find your langauge.</h1>
+        <form id="formOne">
+          <div class="form-group">
+            <p>Question 1: As you're walking home, you see a dog ahead. What do you do?</p>
+            <select class="form-control" id="dog">
+              <option value="0"> </option>
+              <option value="1">Pet it</option>
+              <option value="2">Turn Back</option>
+              <option value="3">Kick it</option>
+              <option value="4">Ignore it</option>
+              <option value="5">Avoid it</option>
+            </select>
+            <br>
+            <p>Question 2: What is it about grapefruits that you like?</p>
+            <select class="form-control" id="grapefruits">
+              <option value="0"> </option>
+              <option value="1">I hate grapefruit</option>
+              <option value="2">Its citric flavour</option>
+              <option value="3">Its ruby coloring</option>
+              <option value="4">It reminds me of oranges</option>
+            </select>
+            <br>
+            <p>Question 3: What is your favorite type of snake?</p>
+            <select class="form-control" id="snake">
+              <option value="0"> </option>
+              <option value="1">King Cobra</option>
+              <option value="2">Python</option>
+              <option value="3">Gah, why'd it have to be snakes!?</option>
+              <option value="4">They're all cool, but Im more of a lizard person</option>
+            </select>
+            <br>
+            <p>Question 4: What do you look for in a programming langauge?</p>
+            <select class="form-control" id="programReqs">
+              <option value="0"> </option>
+              <option value="1">Easy to learn</option>
+              <option value="2">Dynamic, highly adaptable coding</option>
+              <option value="3">Structured, efficent coding</option>
+              <option value="4">I don't know a thing about coding</option>
+            </select>
+            <br>
+            <p>Question 5: When you think of coding, which of the following do you think of?</p>
+            <select class="form-control" id="whatCodingDoes">
+              <option value="0"> </option>
+              <option value="1">Video Games</option>
+              <option value="2">Websites</option>
+              <option value="3">Software</option>
+              <option value="4">Robots</option>
+              <option value="5">All of the above</option>
+            </select>
+            <br>
+            <button type="submit" class="btn-success">Check your Langauge</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="showResults">
+      <h2>Your ideal programming langauge is:</h2>
+      <p>After processing the answers to our gruelling survey, our top men have determined that the ideal programming langauge for you is: </p><br>
 
-      <p>Tired of being told to learn this programming langauge instead of this other one? Well no more! Now with this patented, scientifically* accurate test, you're just a few short questions away from picking the programming langauge thats right for you!</p><br>
-      <h1>Answer each question and submit to find your langauge.</h1>
-      <form id="formOne">
-        <div class="form-group">
-          <p>Question 1: As you're walking home, you see a dog ahead. What do you do?</p>
-          <select class="form-control" id="dog">
-            <option value="0"> </option>
-            <option value="1">Pet it</option>
-            <option value="2">Turn Back</option>
-            <option value="3">Kick it</option>
-            <option value="4">Ignore it</option>
-            <option value="5">Avoid it</option>
-          </select>
-          <br>
-          <p>Question 2: What is it about grapefruits that you like?</p>
-          <select class="form-control" id="grapefruits">
-            <option value="0"> </option>
-            <option value="1">I hate grapefruit</option>
-            <option value="2">Its citric flavour</option>
-            <option value="3">Its ruby coloring</option>
-            <option value="4">It reminds me of oranges</option>
-          </select>
-          <br>
-          <p>Question 3: What is your favorite type of snake?</p>
-          <select class="form-control" id="snake">
-            <option value="0"> </option>
-            <option value="1">King Cobra</option>
-            <option value="2">Python</option>
-            <option value="3">Gah, why'd it have to be snakes!?</option>
-            <option value="4">They're all cool, but Im more of a lizard person</option>
-          </select>
-          <br>
-          <p>Question 4: What do you look for in a programming langauge?</p>
-          <select class="form-control" id="programReqs">
-            <option value="0"> </option>
-            <option value="1">Easy to learn</option>
-            <option value="2">Dynamic, highly adaptable coding</option>
-            <option value="3">Structured, efficent coding</option>
-            <option value="4">I don't know a thing about coding</option>
-          </select>
-          <br>
-          <p>Question 5: When you think of coding, which of the following do you think of?</p>
-          <select class="form-control" id="whatCodingDoes">
-            <option value="0"> </option>
-            <option value="1">Video Games</option>
-            <option value="2">Websites</option>
-            <option value="3">Software</option>
-            <option value="4">Robots</option>
-            <option value="5">All of the above</option>
-          </select>
-          <br>
-          <button type="submit" class="btn-success">Check your Langauge</button>
+      <p>Thank you for taking our survey!</p>
+    </div>
+    <div class="error">
+      <h2>Opps!</h2>
+      <p>Sorry, but it seems like something went wrong with the results. Did you make sure to answer all the questions?</p>
     </div>
 
   </body>
