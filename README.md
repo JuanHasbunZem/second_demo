@@ -1,39 +1,45 @@
-# _{Application Name}_
+# Second Demo README
 
-#### _{Brief description of application}_
+#### A demonstration of skills learned from Epicodus Javascript & JQuery segment. This webpage will help the user decide on what Programming Langauge is right for them. (DISCLAIMER: The questions and results are not scientifically or remotely accurate and the user should not accept any result as a true path to follow).
 
-#### By _**{List of contributors}**_
+#### By Juan Hasbun
 
-## Technologies Used
+## Tech Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* Github
+* Gitbash Terminal
+* Visual Studio Code
+* Markdown
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This is a simple webpage, using similar CSS styling options used in my first demo, that will present a few multiple choice options for the user to answer and then submit. Once submitted, the answers will be stored and reposted on the website, as well as that data will be run through a loop to determine an answer that is also displayed on the site.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+Using your Github account, go to your Gitbash terminal and use the: $git clone https://github.com/JuanHasZem/second_demo  command to download a copy of the files used for this project. Then open the file labeled index.html to open the website and test the page out.
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+Alternatively, follow this link: [second demo](https://github.com/JuanHasZem/second_demo)
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+Currently impossible to get all possible outcomes, this is by design for this project but would be a serious design flaw if this were a real project.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Copyright 2021 Juan Hasbun
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Contact Information
 
-_{Add your contact information here.}_
+Juan Hasbun [zemenarwow@gmail.com](zemenarwow@gmail.com)
