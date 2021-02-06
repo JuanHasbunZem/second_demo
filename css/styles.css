@@ -1,15 +1,36 @@
 #showResults {
   display: none;
+  text-align: center;
 }
 
 #error {
   display: none;
+  text-align: center;
 }
 
 #ruby {
   display: none;
+  text-align: center;
+  color: red;
+}
+
+#ruby h1 {
+  font-size: larger;
 }
 
 #python {
   display: none;
+  text-align: center;
+  color: green;
 }
+
+#python h1 {
+  font-size: larger;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color: white;
+}
+  
