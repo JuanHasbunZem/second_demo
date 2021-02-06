@@ -28,7 +28,9 @@ Alternatively, follow this link: [second demo](https://github.com/JuanHasZem/sec
 
 ## Known Bugs
 
-Currently impossible to get all possible outcomes, this is by design for this project but would be a serious design flaw if this were a real project.
+* Currently impossible to get all possible outcomes, this is by design for this project but would be a serious design flaw if this were a real project.
+* Refreshing the page does not properly reset the questionnaire.
+* Cannot retake survey.
 
 ## License
 
