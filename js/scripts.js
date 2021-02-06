@@ -9,5 +9,12 @@ $(document).ready(function() {
 
     if (resultstotal === 0) {
       $('#error').show();
-    } else if (resultstotal <
+    } else if (grapefruits === 3) {
+      $('#ruby').show();
+    } else if (snake === 2) {
+      $('#python').show();
+    } else {
+      $('#results').show();
+    }
+  });
 });
