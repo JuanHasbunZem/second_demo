@@ -1,15 +1,15 @@
-.showResults {
+#showResults {
   display: none;
 }
 
-.error {
+#error {
   display: none;
 }
 
-.ruby {
+#ruby {
   display: none;
 }
 
-.python {
+#python {
   display: none;
 }
