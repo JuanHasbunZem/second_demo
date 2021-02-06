@@ -6,7 +6,9 @@ function tallyResults() {
   const whatCodingDoes= parseInt($("#whatCodingDoes").val());
   let resultsTotal = 0;
 
-  if (grapefruits === 3) {
+  if (grapefruits === 3 && snake === 2) {
+    resultsTotal = 10;
+  } else if (grapefruits === 3) {
     resultsTotal = 23;
   } else if (snake === 2) {
     resultsTotal = 1;
@@ -24,9 +26,9 @@ $(document).ready(function() {
 
     if (results === 0) {
       $("#error").show();
-    } else if (results >= 11) {
+    } else if (results >= 15) {
       $("#ruby").show();
-    } else if (results <= 10) {
+    } else if (results <= 8) {
       $("#python").show();
     } else {
       $("#showResults").show();
